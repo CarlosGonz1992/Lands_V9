@@ -106,7 +106,7 @@ namespace Lands_V9.ViewModels
                 return;
             }
 
-            var token = await this.apiService.GetToken("http://landsapicgl.azurewebsites.net", this.Email, this.Password);
+            var token = await this.apiService.GetToken("https://landsv9apicgl.azurewebsites.net", this.Email, this.Password);
 
             if (token == null)
             {
